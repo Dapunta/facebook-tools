@@ -1,7 +1,7 @@
 # Facebook-Tools  
 >Features :  
+```- Auto Chat Messenger```  
+```- Auto Post Image Facebook```  
+```- Auto Unfriend Based On Interaction```  
 ```- Generate Token Facebook```  
 ```- Post Privacy Changer```  
-```- Auto Post Image Facebook```  
-```- Auto Chat Messenger```  
-```- Auto Unfriend Based On Interaction``` 
