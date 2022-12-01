@@ -52,7 +52,7 @@ class main:
         self.cek_cookies()
     def cek_cookies(self):
         try:
-            self.token  = open('login/token.json','r').read()
+            self.token  = open('login/token_eaag.json','r').read()
             self.cookie = {'cookie':open('login/cookie.json','r').read()}
             language(self.cookie)
             get  = requests.Session().get('https://graph.facebook.com/me?fields=name,id&access_token=%s'%(self.token),cookies=self.cookie)
