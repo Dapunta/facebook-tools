@@ -308,8 +308,8 @@ class edit_website:
         self.xyz    = requests.Session()
         self.cookie = {'cookie':open('login/cookie.json','r').read()}
         self.web = input('URL Web : ')
-        self.scrap('https://mbasic.facebook.com/editprofile.php?type=contact&edit=website',web)
-    def scrap(self,url,web):
+        self.scrap('https://mbasic.facebook.com/editprofile.php?type=contact&edit=website')
+    def scrap(self,url):
         try:
             req = bs(self.xyz.get(url,cookies=self.cookie).content,'html.parser')
             raq = req.find('form',{'method':'post'})
